@@ -1,14 +1,17 @@
 # DETIKNews-API
-DETIK.com web API build using Python FastAPI
+(Unofficial) DETIKNews-API designed for scraping search results and fetching trending keywords from DETIK.com
 
-## Install Depedencies
-If you're using pipenv
-```bash
-pipenv install
+## Features
+- **Trending Keywords**: Retrieve a list of trending keywords from DETIK.com.
+- **Keywords Search**: Scrapes search results based on a provided keyword and returns article details, such as title, URL, date, description, and content.
+
+## Installation
+
+### Pre-requisites
+- Python 3.x
+- Libraries: httpx, selectolax, fastapi, uvicorn 
+
 ```
-
-If not use any environment:
-```bash
 python -m pip install httpx selectolax fastapi uvicorn
 ```
 
@@ -22,5 +25,3 @@ uvicorn app:app --reload
 ```bash
 curl -X GET "http://localhost:8000/scrape/?keyword=teknologi&pages=10"
 ```
-
-[EDIT the **keyword** and **pages** value]
