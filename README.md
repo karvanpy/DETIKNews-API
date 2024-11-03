@@ -1,6 +1,8 @@
 # DETIKNews-API
 (Unofficial) DETIKNews-API designed for scraping search results and fetching trending keywords from DETIK.com
 
+Live: https://detik-news-api.vercel.app/
+
 ## Features
 - **Trending Keywords**: Retrieve a list of trending keywords from DETIK.com.
 - **Keywords Search**: Scrapes search results based on a provided keyword and returns article details, such as title, URL, date, description, and content.
